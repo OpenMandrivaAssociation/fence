@@ -1,6 +1,6 @@
 %define name fence
 %define version 1.26
-%define release 2mdk
+%define release  %mkrel 2
 
 Summary: fence The cluster I/O fencing system
 Name: %{name}
