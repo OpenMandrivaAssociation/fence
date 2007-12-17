@@ -13,7 +13,6 @@ License: GPL
 Group: System
 #Url: 
 Buildrequires: cman-kernel ccs
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
