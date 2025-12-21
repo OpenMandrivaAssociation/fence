@@ -12,6 +12,11 @@ Patch1: fence-fencedMakefile.patch.bz2
 License: GPL
 Group: System
 #Url: 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires: cman-kernel ccs
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
